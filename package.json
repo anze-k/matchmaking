@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
-    "clear-require": "^2.0.0",
+    "socket.io": "^2.0.0",
     "mocha": "^4.0.1"
   },
   "devDependencies": {}
