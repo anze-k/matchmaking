@@ -1,0 +1,20 @@
+{
+  "name": "matchmaking",
+  "version": "0.0.1",
+  "description": "A small pseudo matchmaking utility written in node.js",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit --reporter spec"
+  },
+  "author": "Anze Kozak",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "clear-require": "^2.0.0",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {}
+}
