@@ -9,12 +9,13 @@ var q2 = [];
 var paired = []; // an array of already paired players
 
 /** for feeder */
-var loadCsv = true;
+var loadCsv = true; // whether mock data is loaded
 var feederFile = "mockdata/standard_rating_list.csv"; // csv of players
 var feeder = true; // csv players will be fed to queue
 var feedOneTime = false; // true - insert all players instantly, false - feed them slowly
 var feedTimer; // timer for feeding (defaults to 1 second)
 var feedNum = 5000; // how many do we queue up per second if feedOneTime = false
+
 var minLeniency = 20; // starting leniency - players can have 20 points rating difference and be paired
 var maxLeniency = 300; // maximum leniency - can be reached if a player is waiting for a long time
 
