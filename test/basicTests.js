@@ -50,7 +50,6 @@ describe("Match a randomly skilled player", function() {
 });
 
 describe("Match 10 randomly skilled players interval", function() {
-  //let app = require('../app.js');
   it("matches 10 randomly skilled players among mock data csv players", function(done) {
     this.timeout(100000);
     var options = { "feeder": true, "feederOneTime": false, "loadCsv": true };
